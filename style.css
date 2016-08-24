@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
 	margin: 0;
 	padding: 0;
@@ -6,7 +5,7 @@
 .main{
 	width: 1500px;
 	height: 4405px;
-	border: 3px solid black;
+	/*border: 3px solid black;*/
 	margin: 0 auto;
 	padding: 0;
 }
@@ -19,7 +18,7 @@
 	display: inline-block;
 	margin: 0 auto;
 	padding: 0 auto;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 #logo{
 	margin-top: 24px;
@@ -42,14 +41,10 @@
 	z-index: 2;
 	height: 3365px;
 	background-color:  #f8f8f8;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 
 }
-.footer{
-	background-color:  #373737;
-	height: 348px;
-	border: 1px solid black;
-}
+
 .banner{
 	background-color:  #fff51f;
 	width: 270px;
@@ -58,7 +53,7 @@
 	margin-right: 1065px;
 	margin-bot: 64px;
 	margin-left: 165px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	float: left;
 }
 .banner-text{
@@ -103,6 +98,11 @@
 	margin-top: 243px;
 	margin-left: 913px;
 }
+#vape_king{
+	border: 1px solid black;
+	height: 34px;
+	width: 313px;
+}
 .menu{
 	position: relative;
 	z-index: 3;
@@ -111,7 +111,7 @@
 	height: 475px;
 	margin-top: -20px;
 	margin-left: 165px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	float: left;
 
 }
@@ -149,138 +149,8 @@
 	right: 0;
 	top: 0;
 	}
-=======
-.main{
-	width: 1500px;
-	height: 4405px;
-	border: 3px solid black;
-	margin: 0 auto;
-	padding: 0;
-}
-.header{
-	/*position: relative;
-	z-index: 1;*/
-	background-color:  #abeafa;
-	height: 700px;
-	/*width: 1500px;*/
-	display: inline-block;
-	margin: 0 auto;
-	padding: 0 auto;
-	border: 1px solid black;
-}
-#logo{
-	margin-top: 24px;
-	margin-left: 234px;
-}
-#sign_new_products{
-	font-family: Roboto;
-	color: #707070;
-	font-size: 22px; /* Приближение из-за подстановки шрифтов */
-	font-weight: 900;
-	font-style: italic;
-	text-align: left;
-	margin-top: 31px;
-	margin-left: 25px;
-}
-.container{
-	position: relative;
-	z-index: 2;
-	height: 3365px;
-	background-color:  #f8f8f8;
-	border: 1px solid black;
-	
-}
-.footer{
-	background-color:  #373737;
-	height: 348px;
-	border: 1px solid black;
-}
-.banner{
-	background-color:  #fff51f;
-	width: 270px;
-	height: 300px;
-	margin-top: 201px;
-	margin-right: 1065px;
-	margin-bot: 64px;
-	margin-left: 165px;
-	border: 1px solid black;
-}
-.banner-text{
-	font-family: Raleway;
-	color: #333333;
-	font-size: 30px; /* Приближение из-за подстановки шрифтов */
-	font-weight: 700;
-	line-height: 30px; /* Приближение из-за подстановки шрифтов */
-	text-align: left;
-	/*text-transform: uppercase;*/
-	/*display: inline-block;*/
-	margin-top: 82px;
-	margin-right: 46px;
-	margin-bot: 166px;
-	margin-left: 25px;
-	/*border: 1px solid black;*/
-}
-.banner-text-lower{
-	font-family: Raleway;
-	color: #333333;
-	font-size: 18px; /* Приближение из-за подстановки шрифтов */
-	font-weight: 700;
-	line-height: 14px; /* Приближение из-за подстановки шрифтов */
-	text-align: left;
-	margin-top: 24px;
-	margin-right: 30px;
-	margin-bot: 82px;
-	margin-left: 22px;
-	/*border: 1px solid black;*/
-}
-.menu{
-	position: relative;
-	z-index: 3;
-	background-color: #26d2fc;
-	width: 270px;
-	height: 475px;
-	margin-top: -20px;
-	margin-left: 165px;
-	border: 1px solid black;
-	float: left;
-	
-}
-.newprod{
-	/*Когда убираешь бордер не забуть про значение margin-top 475*/
-	/*position: relative;
-	z-index: 3;*/
-	background-color: #f8f8f8;
-	width: 870px;
-	height: 724px;
-	/*border: 1px solid black;*/
-	float: left;
-	margin-top: -477px;
-	margin-left: 465px; 
-}
-.block_newprod{
-	/*position: relative;*/
-	background-color:  #ffffff;
-	width: 270px;
-	height: 320px;
-	float: left;
-	border: 1px solid black;
-}
-.img_newproduct{
-	color:  #eaeaea;
-	/*border: 1px solid black;*/
-	margin-top: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	z-index: 6;
-	
-}
-.new-hot{
-	/*margin-top: 0;
-	margin-left: 0;*/
-	position: relative;
-	z-index: 4;
-	border: 1px solid black;
-
-	
-}
->>>>>>> 48d28f6299ca36d75709f02785b3832ad7e2725d
+	.footer{
+		background-color:  #373737;
+		height: 348px;
+		border: 1px solid black;
+	}
