@@ -2,9 +2,12 @@
 	margin: 0;
 	padding: 0;
 }
+html, body{
+	height: 100%;
+}
 .main{
 	width: 1500px;
-	height: 4405px;
+	height: 3365px;
 	/*border: 3px solid black;*/
 	margin: 0 auto;
 	padding: 0;
@@ -274,8 +277,26 @@
 		background-color: #eaeaea;
 		width: 1170px;
 		height: 350px;
-		border: 1px solid black;
+		/*border: 1px solid black;*/
 		margin-left: -300px;
+		display: inline-block;
+
+
+	}
+	.instafeed p{
+			margin-left: 440px;
+			margin-top: 54px;
+			font-family: Roboto;
+			color:  #333333;
+			font-size: 22px;/* Приближение из-за подстановки шрифтов */
+			font-weight: 900;
+			font-style: italic;
+			text-align: left
+			line-height: 22px;
+	}
+	.fb_big{
+		margin-left: -300px;
+		float: left;
 	}
 	.footer{
 		background-color:  #373737;
