@@ -242,12 +242,40 @@
 	margin-right: 10px;
 	margin-left: 10px;
 	z-index: 6;
-
 }
 .new-hot{
 	position: absolute;
 	right: 0;
 	top: 0;
+	}
+	.brand{
+		background-color: #ffffff;
+		width: 1170px;
+		height: 160px;
+		/*border: 1px solid black;*/
+		margin-top: 20px;
+		margin-left: -300px;
+		display: inline-block;
+	}
+	.brand .brand_text{
+		font-family: Roboto;
+		height: 16px;
+		color: #717171;
+		font-size: 48px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 700;
+		line-height: 34px;/* Приближение из-за подстановки шрифтов */
+		text-align: center;
+		margin-top: 60px;
+	}
+	.brand:hover{
+		background-color: grey;
+	}
+	.instafeed{
+		background-color: #eaeaea;
+		width: 1170px;
+		height: 350px;
+		border: 1px solid black;
+		margin-left: -300px;
 	}
 	.footer{
 		background-color:  #373737;
